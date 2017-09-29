@@ -1,13 +1,13 @@
 class PagesController < ApplicationController
-  def Home
+  def home
   end
 
-  def About
+  def about
   end
 
-  def News
+  def news
   end
 
-  def Entertainment
+  def entertainment
   end
 end

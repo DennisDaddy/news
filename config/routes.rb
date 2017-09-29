@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
 
-  get 'pages/Home'
+  get 'pages/home'
+
+  get 'pages/about'
+
+  get 'pages/news'
+
+  get 'pages/entertainment'
+
+  root 'pages#Home'
 
   get 'pages/About'
 
