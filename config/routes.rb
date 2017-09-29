@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'pages/About'
+
+  get 'pages/News'
+
+  get 'pages/Entertainment'
+
   root 'static_pages#home'
 
   get  '/help',    to: 'static_pages#help'
