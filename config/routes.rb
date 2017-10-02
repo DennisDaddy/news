@@ -1,5 +1,17 @@
 Rails.application.routes.draw do
 
+  get 'posts/new'
+
+  get 'posts/create'
+
+  get 'posts/edit'
+
+  get 'posts/update'
+
+  get 'posts/show'
+
+  get 'posts/destroy'
+
   root 'pages#home'
 
   get '/about', to: 'pages#about'
