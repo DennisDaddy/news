@@ -20,7 +20,7 @@ class PostsController < ApplicationController
   @post = current_user.posts.build(post_params)
   if @post.save
   flash[:success] = "Post successfully created!"
-  redirect_to projects_url
+  redirect_to posts_url
   else
     flash[:danger] = "Post not created fill all fields!"
     redirect_to request.referrer || root_url
