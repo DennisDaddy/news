@@ -1,20 +1,6 @@
 Rails.application.routes.draw do
 
- 
-  get 'categories/new'
-
-  get 'categories/create'
-
-  get 'categories/index'
-
-  get 'categories/edit'
-
-  get 'categories/update'
-
-  get 'categories/show'
-
-  get 'categories/destroy'
-
+  
   root 'pages#home'
 
   get '/about', to: 'pages#about'
@@ -31,6 +17,7 @@ Rails.application.routes.draw do
    resources :account_activations, only: [:edit]
    resources :password_resets,     only: [:new, :create, :edit, :update]
    resources :posts
+   resources :categories
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
