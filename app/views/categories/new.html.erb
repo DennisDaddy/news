@@ -1,2 +1,13 @@
-<h1>Categories#new</h1>
-<p>Find me in app/views/categories/new.html.erb</p>
+
+<% provide(:title, "Add Category") %>      
+<h4 align="center">Add Category</h4>
+<hr>
+<%= form_for @category do |f| %>
+    <%= render 'shared/error_messages', object: f.object %>
+
+  <%= f.label :name %>
+  <%= f.text_field :name, class: 'form-control' %>
+
+  <%= f.submit "Create Category", class: "btn btn-success" %>
+<% end %>
+		 
