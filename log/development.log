@@ -17849,3 +17849,405 @@ Processing by UsersController#show as HTML
 Completed 200 OK in 142ms (Views: 67.2ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-06 12:48:39 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2017-10-06 12:48:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [31 times] (11.2ms)
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.6ms)
+  Rendering /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.4ms)
+Started GET "/about" for 127.0.0.1 at 2017-10-06 12:48:40 +0300
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 67ms (Views: 65.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2017-10-06 12:48:41 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [31 times] (16.1ms)
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.0ms)
+Started GET "/news" for 127.0.0.1 at 2017-10-06 12:48:41 +0300
+Processing by PagesController#news as HTML
+  Rendering pages/news.html.erb within layouts/application
+  Rendered pages/news.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 82ms (Views: 66.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2017-10-06 12:48:50 +0300
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered posts/new.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 73ms (Views: 68.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2017-10-06 12:49:06 +0300
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ek63I43mCe5Qi/njA6LICcT3kiyX8mQLi3M+v9SKc1RK527zkCYPin4S5vFGceInRnAHQ5dPpLIpCi0pvS7sNQ==", "post"=>{"title"=>"Hello this is how i made it in life", "content"=>"Hello this is how i made it in life  Hello this is how i made it in life Hello this is how i made it in lifeHello this is how i made it in lifeHello this is how i made it in lifeHello this is how i made it in life"}, "commit"=>"Create Post"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Hello this is how i made it in life"], ["content", "Hello this is how i made it in life  Hello this is how i made it in life Hello this is how i made it in lifeHello this is how i made it in lifeHello this is how i made it in lifeHello this is how i made it in life"], ["user_id", 1], ["created_at", 2017-10-06 09:49:06 UTC], ["updated_at", 2017-10-06 09:49:06 UTC]]
+  [1m[35m (140.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 152ms (ActiveRecord: 141.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2017-10-06 12:49:07 +0300
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered posts/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 71ms (Views: 68.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-06 12:50:22 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered collection of users/_user.html.erb [30 times] (14.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.4ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.4ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.9ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.4ms)
+  Rendered collection of users/_user.html.erb [30 times] (12.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.9ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (10.4ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.9ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.4ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.6ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.6ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.6ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.0ms)
+  Rendered users/index.html.erb within layouts/application (301.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 357ms (Views: 353.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-06 12:57:44 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered collection of users/_user.html.erb [30 times] (10.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.4ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.6ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.9ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.4ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.9ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.6ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.0ms)
+  Rendered users/index.html.erb within layouts/application (899.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1005ms (Views: 959.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2017-10-06 12:57:50 +0300
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/kings/code/News/app/views/posts/index.html.erb:5: syntax error, unexpected tCONSTANT, expecting ')'
+... :delete, data: { confirm: "You sure?" } );@output_buffer.sa...
+...                               ^
+/home/kings/code/News/app/views/posts/index.html.erb:5: unterminated string meets end of file
+/home/kings/code/News/app/views/posts/index.html.erb:5: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/posts/index.html.erb:5: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/posts/index.html.erb:5: unterminated string meets end of file
+app/views/posts/index.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+  Rendering /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.8ms)
+  Rendering /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/kings/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.5ms)
+Started GET "/posts" for 127.0.0.1 at 2017-10-06 12:59:06 +0300
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered posts/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 60ms (Views: 57.7ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/posts/1" for 127.0.0.1 at 2017-10-06 12:59:11 +0300
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VRkk7375IkE6MfLALL/FJU5fQT1gnbM1Cewl5q0ol0kNsP0/YzkkJRSo7dJpbO8LzNjUUmAgc4yrlTZwxIwIKA==", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = ? AND "posts"."id" = ? ORDER BY "posts"."created_at" DESC LIMIT ?[0m  [["user_id", 1], ["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (94.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 107ms (ActiveRecord: 96.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2017-10-06 12:59:11 +0300
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered posts/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 64ms (Views: 61.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2017-10-06 12:59:14 +0300
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered posts/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-06 13:00:16 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered collection of users/_user.html.erb [30 times] (9.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (10.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.6ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (10.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (11.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (12.6ms)
+  Rendered collection of users/_user.html.erb [30 times] (11.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (10.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (10.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.7ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.9ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.9ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.4ms)
+  Rendered users/index.html.erb within layouts/application (310.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 375ms (Views: 370.2ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/users/6" for 127.0.0.1 at 2017-10-06 13:00:22 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"cvZWaecXn9Nz5GaMuIFsMcb+anD6OCVrcpX1XrpHVL8qX4+5+teZt119eZ79UkYfRHn/H/qF5dLQ7ObI0+PL3g==", "id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ? ORDER BY "posts"."created_at" DESC[0m  [["user_id", 6]]
+  [1m[35mSQL (1.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 6]]
+  [1m[35m (70.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 98ms (ActiveRecord: 73.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-10-06 13:00:22 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered collection of users/_user.html.erb [30 times] (9.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (11.4ms)
+  Rendered collection of users/_user.html.erb [30 times] (9.9ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (10.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (10.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.9ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.8ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.4ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.4ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.2ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (11.0ms)
+  Rendered collection of users/_user.html.erb [30 times] (8.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.1ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.3ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.5ms)
+  Rendered collection of users/_user.html.erb [30 times] (7.2ms)
+  Rendered users/index.html.erb within layouts/application (279.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 335ms (Views: 332.4ms | ActiveRecord: 0.9ms)
+
+
