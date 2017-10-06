@@ -11,6 +11,9 @@
 
 	  <%= f.label :content %>
 	  <%= f.text_field :content, class: 'form-control' %>	  
+	     <p>
+		  <%= f.select :category_id, Category.all.collect {|x| [x.name, x.id]}, {:include_blank => "Select One"}%>
+		</p>
 
 	  <%= f.submit yield(:button_text), class: "btn btn-primary" %>
 	<% end %>
