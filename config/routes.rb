@@ -1,6 +1,20 @@
 Rails.application.routes.draw do
 
  
+  get 'categories/new'
+
+  get 'categories/create'
+
+  get 'categories/index'
+
+  get 'categories/edit'
+
+  get 'categories/update'
+
+  get 'categories/show'
+
+  get 'categories/destroy'
+
   root 'pages#home'
 
   get '/about', to: 'pages#about'
