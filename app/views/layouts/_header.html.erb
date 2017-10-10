@@ -13,23 +13,10 @@
                 <ul class="nav navbar-nav navbar-right">                   
                     <li><%= link_to "Home", root_path %></li>
                      <li><%= link_to "About Us", about_path %></li>
-                      <li><%= link_to "News", posts_path %></li>                      
-                        <li><%= link_to "Entertainment", root_path %></li>
-
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog-item.html">Blog Single</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="registration.html">Registration</a></li>
-                            <li class="divider"></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms of Use</a></li>
-                        </ul>
-                    </li>                  
-                  <li><%= link_to "About Us", about_path %></li>
+                      <li><%= link_to "Posts", posts_path %></li>                      
+                        <li><%= link_to "Tech ", root_path %></li>
+                                  
+                  <li><%= link_to "Contact Us", about_path %></li>
                   <% if logged_in? %>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>Account</a>
